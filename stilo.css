@@ -1,0 +1,38 @@
+.paper {
+    width: 80%;
+    height: 600px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    font-family: serif;
+    font-size: 20px;
+    color: #333;
+    margin: 0 auto;
+}
+
+.paper:before,
+.paper:after {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.paper:before {
+    width: 100px;
+    height: 100px;
+    top: -50px;
+    left: -20px;
+    transform: rotate(-10deg);
+}
+class{
+  color: pink
+}
+body{
+  background-color: palevioletred;
+}
+.oi{
+  font-family: arial;
+}
